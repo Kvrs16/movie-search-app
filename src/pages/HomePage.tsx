@@ -22,8 +22,9 @@ const HomePage: React.FC = () => {
     const fetchMovies = async () => {
       try {
         const response = await fetch(
-          `http://www.omdbapi.com/?s=${searchQuery}&apikey=8e358fc7`
+          `https://www.omdbapi.com/?s=${searchQuery}&apikey=8e358fc7`
         );
+        
         const data = await response.json();
         if (data.Search) setMovies(data.Search);
       } catch (error) {
