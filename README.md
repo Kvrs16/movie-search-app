@@ -3,7 +3,7 @@
 A React-based Movie Search Application that allows users to search for movies using the OMDB API. The app provides a smooth and responsive UI/UX, with features like search recommendations, pagination, and detailed movie information.
 
 ## 🚀 Live Demo
-[Movie Search App]([https://movie-search-inb6i4tbs-vijaya929s-projects.vercel.app/])
+[Movie Search App](https://movie-search-inb6i4tbs-vijaya929s-projects.vercel.app/)
 
 ## 📂 Repository Link
 [GitHub Repository](https://github.com/vijaya929s-projects/movie-search-app)
