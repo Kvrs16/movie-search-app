@@ -1,14 +1,20 @@
 import React, { useState, useEffect } from "react";
 import SearchBar from "../components/SearchBar";
 import MovieCard from "../components/MovieCard";
-import "../styles/HomePage.css"; 
+import "../styles/HomePage.css"; // Ensure this file exists for styling
 
-
- // Ensure this file exists for styling
+// ✅ Define the Movie Type
+type Movie = {
+  imdbID: string;
+  Title: string;
+  Year: string;
+  Poster: string;
+};
 
 const HomePage: React.FC = () => {
-  const [movies, setMovies] = useState([]);
-  const [searchQuery, setSearchQuery] = useState("");
+  // ✅ Ensure movies state has the correct type
+  const [movies, setMovies] = useState<Movie[]>([]);
+  const [searchQuery, setSearchQuery] = useState<string>("");
 
   useEffect(() => {
     if (!searchQuery) return;
@@ -35,7 +41,7 @@ const HomePage: React.FC = () => {
       
       <div className="movie-grid">
         {movies.length > 0 ? (
-          movies.map((movie) => <MovieCard key={movie.imdbID} movie={movie} />)
+          movies.map((movie: Movie) => <MovieCard key={movie.imdbID} movie={movie} />)
         ) : (
           <p className="no-results">No movies found. Try another search!</p>
         )}
