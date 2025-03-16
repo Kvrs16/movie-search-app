@@ -5,7 +5,7 @@ A React-based Movie Search Application that allows users to search for movies us
 ## 🚀 Live Demo
 🔗 [Movie Search App](https://movie-search-r95dn5dmw-vijaya929s-projects.vercel.app/)
 
-[Netlify](https://movie-finder-vijaya.netlify.app/)
+🔗 [Netlify](https://movie-finder-vijaya.netlify.app/)
 
 ## 📂 Repository Link
 📌 [GitHub Repository](https://github.com/Kvrs16/movie-search-app)
