@@ -3,9 +3,9 @@
 A React-based Movie Search Application that allows users to search for movies using the OMDB API. The app provides a smooth and responsive UI/UX, with features like search recommendations, pagination, and detailed movie information.
 
 ## 🚀 Live Demo
-🔗 [Movie Search App](https://movie-search-r95dn5dmw-vijaya929s-projects.vercel.app/)
+🔗 [Movie Search App](https://movie-finder-vijaya.netlify.app/)
 
-🔗 [Netlify](https://movie-finder-vijaya.netlify.app/)
+🔗 [Vercel](https://movie-search-r95dn5dmw-vijaya929s-projects.vercel.app/)
 
 ## 📂 Repository Link
 📌 [GitHub Repository](https://github.com/Kvrs16/movie-search-app)
@@ -116,7 +116,7 @@ The app fetches movie data from the **OMDB API**.
 
 ## 📝 Deployment Details
 The app is deployed using **Vercel**.
-- **Production URL:** [Movie Search App](https://movie-search-r95dn5dmw-vijaya929s-projects.vercel.app/),[Movie Finder](https://movie-finder-vijaya.netlify.app/)
+- **Production URL:** [Movie Search App](https://movie-finder-vijaya.netlify.app/),[Movie Finder](https://movie-search-r95dn5dmw-vijaya929s-projects.vercel.app/)
 - **Inspect Deployment Logs:** `vercel logs movie-search-mamqa4mt1-vijaya929s-projects.vercel.app`
 - **Set Environment Variables on Vercel:**
   1. Go to **Vercel Dashboard** → Your Project
