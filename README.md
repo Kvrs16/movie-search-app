@@ -116,7 +116,7 @@ The app fetches movie data from the **OMDB API**.
 
 ## 📝 Deployment Details
 The app is deployed using **Vercel**.
-- **Production URL:** [Movie Search App](https://movie-search-r95dn5dmw-vijaya929s-projects.vercel.app/)
+- **Production URL:** [Movie Search App](https://movie-search-r95dn5dmw-vijaya929s-projects.vercel.app/),[Movie Finder](https://movie-finder-vijaya.netlify.app/)
 - **Inspect Deployment Logs:** `vercel logs movie-search-mamqa4mt1-vijaya929s-projects.vercel.app`
 - **Set Environment Variables on Vercel:**
   1. Go to **Vercel Dashboard** → Your Project
